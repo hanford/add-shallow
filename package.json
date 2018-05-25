@@ -1,0 +1,38 @@
+{
+  "name": "add-shallow",
+  "version": "0.2.2",
+  "description": "Create circleci node deploy for now and heroku",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/add-shallow.git"
+  },
+  "homepage": "https://github.com/hanford/add-shallow",
+  "bugs": "https://github.com/hanford/add-shallow/issues",
+  "authors": [
+    "Jack Hanford"
+  ],
+  "license": "MIT",
+  "files": "index.js",
+  "bin": {
+    "add-shallow": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "~2.3.1",
+    "commander": "~2.9.0",
+    "titlecase": "~1.1.2"
+  },
+  "tags": [
+    "react",
+    "now.sh",
+    "heroku",
+    "circleci",
+    "cli"
+  ],
+  "keywords": [
+    "react",
+    "now.sh",
+    "heroku",
+    "circleci",
+    "cli"
+  ]
+}
